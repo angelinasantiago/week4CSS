@@ -3,44 +3,45 @@ body {
 }
 
 header {
-    background-color: linen;
+    background-color: lightslategrey;
 }
 
 section {
-    background-color: lightpink;
+    background-color: lightgrey;
 }
 
 article {
-    background-color: lightblue;
+    background-color: lightslategray;
 }
 
 aside {
-    background-color: lavender;
+    background-color: whitesmoke;
     max-width: 500px;
 }
 
 div {
-    background-color: lightgoldenrodyellow;
-    max-width: 80%;
+    background-color: lightsteelblue;
+    max-width: 10%;
 }
 
 .colorbox {
     /* padding: 5px; */
     /* margin: 50px; */
     /* display: block; */
-    max-width: 100%;
+    max-width: 20%;
 }
 
 
 .boxy.square {
-    border: 2px solid red;
-    border-radius: 15px;
+    border: 10px solid black;
+    border-radius: 20px;
+    position: relative;
 }
 
 ul {
     list-style-type: none;  /*removes the bullets from the list*/
-    margin: 0;  /* removes default margin*/
-    padding: 0; /* removes default padding*/
+    margin: 150;  /* removes default margin*/
+    padding: 160; /* removes default padding*/
 }
 li {
     display: inline;  
@@ -50,7 +51,7 @@ li {
 
 li a {
     display: block; 
-    padding: 14px 16px;
+    padding: 120px 16px;
     text-decoration: none;
 }
 
